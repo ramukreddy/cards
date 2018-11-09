@@ -19,7 +19,7 @@ public class DeckOfCardsTest {
 		deck.shuffle();
 		// print all cards
 		IntStream.range(0, 52).forEach(number -> {
-			System.out.println(deck.dealOneCard());
+			System.out.println(deck.dealOneCard().get());
 
 		});
 	}
